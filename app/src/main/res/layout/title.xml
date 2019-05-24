@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/title_img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top|center"
+        android:paddingTop="10dp"
+        android:src="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/current_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="13°C"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="bottom|center"
+        android:textSize="60dp"
+        android:paddingBottom="50dp"
+        />
+    <TextView
+        android:id="@+id/current_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingLeft="20dp"
+        android:gravity="left|bottom"
+        android:textSize="30dp"
+        android:text="博白"
+        />
+</LinearLayout>
